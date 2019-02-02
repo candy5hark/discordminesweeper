@@ -12,8 +12,6 @@ while bombs > gridSize:
 
 chance_to_place = bombs / gridSize
 
-print(chance_to_place)
-
 i = 0
 while i < gridSize :
     grid.append(":white_medium_square:")
