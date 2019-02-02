@@ -56,7 +56,7 @@ while i < gridSize:
         bottomRow = False
 
 #up left
-    if not topRow and not leftEdge and i > dimension and grid[i - dimension - 1] == ":bomb:":
+    if not topRow and not leftEdge and and grid[i - dimension - 1] == ":bomb:":
         surroundingBombs += 1
 #up
     if not topRow and grid[i - dimension] == ":bomb:":
